@@ -12,7 +12,7 @@ spring:
           - id: r2
             uri: lb://benificiaire-service
             predicates:
-              - Path=/api/benificiaires/**
+              - Path=/api/beneficiaires/**
 
 server:
   port: 80
